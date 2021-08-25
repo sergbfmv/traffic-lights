@@ -1,0 +1,48 @@
+.traffic-lights {
+  background-color: grey;
+  width: 400px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.red-light {
+  border-radius: 50%;
+  background-color: red;
+  opacity: 0.2;
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+}
+
+.red-light_active {
+  opacity: 1;
+}
+
+.yellow-light {
+  border-radius: 50%;
+  background-color: yellow;
+  opacity: 0.2;
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+}
+
+.yellow-light_active {
+  opacity: 1;
+}
+
+.green-light {
+  border-radius: 50%;
+  background-color: green;
+  opacity: 0.2;
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+}
+
+.green-light_active {
+  opacity: 1;
+}
